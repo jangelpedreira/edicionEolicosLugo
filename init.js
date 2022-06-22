@@ -93,7 +93,7 @@ var ie = (function() {
       window.apiUrl + 'dijit/themes/claro/claro.css',
       window.apiUrl + 'esri/css/esri.css',
       // window.apiUrl + 'dojox/layout/resources/ResizeHandle.css',
-      window.path + 'jimu.js/css/jimu-theme.css'
+      window.path + 'jimu.js/css/jimu-theme.css',
       //window.path + 'libs/caja-html-sanitizer-minified.js'
       //window.path + 'libs/moment/twix.js',
       //window.path + 'libs/Sortable.js',
@@ -102,6 +102,8 @@ var ie = (function() {
       // //because we have jimu/dijit/GridLayout dijit, so we import this css here
       // window.path + 'libs/goldenlayout/goldenlayout-base.css',
       // window.path + 'libs/goldenlayout/goldenlayout-light-theme.css'
+      '//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css',
+	    window.path + 'css/label_bootstrap.css' 
     ]);
 
     if (window.apiUrl.substr(window.apiUrl.length - 'arcgis-js-api/'.length,
