@@ -1,0 +1,496 @@
+{
+  "editor": {
+    "enableUndoRedo": true,
+    "toolbarVisible": true,
+    "toolbarOptions": {
+      "mergeVisible": false,
+      "cutVisible": false,
+      "reshapeVisible": false
+    },
+    "honorSettingOfWebmap": false,
+    "layerInfos": [
+      {
+        "featureLayer": {
+          "id": "18153b1722e-layer-55"
+        },
+        "disableGeometryUpdate": false,
+        "allowCreate": true,
+        "allowDelete": true,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "objectid",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "data_rexistro",
+            "label": "Data rexistro",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "hay_coord_colis",
+            "label": "Hay coordenadas colisión",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "num_apoio",
+            "label": "Número apoio",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "vano_colisio",
+            "label": "Vano colisión",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "coord_x",
+            "label": "Coordenada X",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "coord_y",
+            "label": "Coordenada Y",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "nome_cient",
+            "label": "Nome científico",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "morte_lesio",
+            "label": "Morte/Lesión",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "colision_elect",
+            "label": "Colisión/Electrocución",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "zona_protec",
+            "label": "Zona protección",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "observacio",
+            "label": "Observaciones",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "num_exped",
+            "label": "Expediente",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "concello",
+            "label": "Concello",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "18153b1722d-layer-54"
+        },
+        "disableGeometryUpdate": false,
+        "allowCreate": true,
+        "allowDelete": true,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "OBJECTID",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "num_apoio",
+            "label": "Número apoio",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "coord_x",
+            "label": "Coordenada X",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "coord_y",
+            "label": "Coordenada Y",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "num_exped",
+            "label": "Número expediente",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "observacio",
+            "label": "Observaciones",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "concello",
+            "label": "Concello",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "18153b1722d-layer-53"
+        },
+        "disableGeometryUpdate": false,
+        "allowCreate": true,
+        "allowDelete": true,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "objectid",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "num_exped",
+            "label": "Expediente",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "dist_buffer",
+            "label": "Distancia buffer",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "concellos",
+            "label": "Concellos",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "st_length(shape)",
+            "isEditable": false,
+            "visible": false
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "18153b1722d-layer-52"
+        },
+        "disableGeometryUpdate": false,
+        "allowCreate": true,
+        "allowDelete": true,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "objectid",
+            "visible": false
+          },
+          {
+            "fieldName": "aero",
+            "label": "Aeroxenerador",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "concello",
+            "label": "Concello",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "coord_x",
+            "label": "Coordenada X",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "coord_y",
+            "label": "Coordenada Y",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "data_rexistro",
+            "label": "Data rexistro",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "num_exped",
+            "label": "Expediente",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "visible": false
+          },
+          {
+            "fieldName": "hay_coord_colis",
+            "label": "Hay coordenadas colisión",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "morte_lesio",
+            "label": "Morte/Lesión",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "nome_cient",
+            "label": "Nome científico",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "observacio",
+            "label": "Observaciones",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "zona_protec",
+            "label": "Zona protección avifauna",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "18153b1722c-layer-51"
+        },
+        "disableGeometryUpdate": false,
+        "allowCreate": true,
+        "allowDelete": true,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "objectid",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "etiq_xunta",
+            "label": "Etiqueta Xunta",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "situacion",
+            "label": "Situación",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "mod_aero",
+            "label": "Modelo Aeroxenerador",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "altura",
+            "label": "Altura",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "diametro",
+            "label": "Diámetro",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "p_nominal",
+            "label": "Potencia nominal",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "coord_x",
+            "label": "Coordenada X",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "coord_y",
+            "label": "Coordenada Y",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "num_exped",
+            "label": "Número Expediente",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "concello",
+            "label": "Concello",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "18153b1722c-layer-50"
+        },
+        "disableGeometryUpdate": false,
+        "allowCreate": true,
+        "allowDelete": true,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "objectid",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "tipo_infraest",
+            "label": "Tipo infraestructura",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "situacion",
+            "label": "Situación",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "coord_x",
+            "label": "Coordenada X",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "coord_y",
+            "label": "Coordenada Y",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "num_exped",
+            "label": "Número expediente",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "concello",
+            "label": "Concello",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "18153b1722c-layer-49"
+        },
+        "disableGeometryUpdate": false,
+        "allowCreate": true,
+        "allowDelete": true,
+        "fieldInfos": [
+          {
+            "fieldName": "objectid",
+            "label": "objectid",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "num_exped",
+            "label": "Expediente",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "concellos",
+            "label": "Concellos",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "globalid",
+            "label": "globalid",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "Shape__Area",
+            "label": "st_area(shape)",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "st_length(shape)",
+            "isEditable": false,
+            "visible": false
+          }
+        ]
+      }
+    ],
+    "useFilterEdit": false,
+    "autoApplyEditWhenGeometryIsMoved": false,
+    "snappingTolerance": 15,
+    "popupTolerance": 5,
+    "stickyMoveTolerance": 0,
+    "usingSaveButton": false
+  }
+}

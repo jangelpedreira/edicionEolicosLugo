@@ -1,0 +1,52 @@
+<div class="container">  
+    <br>
+    <form data-dojo-type="dijit/form/Form" data-dojo-attach-point="formulario">
+        <div class="form-row">
+            <label for="tipoInfraestructura">Tipo infraestructura:</label>
+            <select id="comboTiposInfraest" data-dojoType="dijit/form/Select" data-dojo-props="maxHeight:200 style='width:200px', required:true, intermediateChanges" 
+                    data-dojo-attach-point="comboTiposInfraest" autocomplete="false" value="" data-dojo-attach-event="onChange:setTipoInfraestructura">
+                <option>PARQUE</option>
+                <option>LINA</option>
+            </select>
+        </div>
+        <div class="form-row">
+            <label for="afeccionesPara">Afecciones para:</label>
+            <select id="comboExpedientes" data-dojoType="dijit/form/Select" data-dojo-props="maxHeight:200 style='width:200px' required:true, intermediateChanges" 
+                    data-dojo-attach-point="comboExpedientes" autocomplete="false" value="" data-dojo-attach-event="onChange:setExpedientes">
+                <option>Un expediente</option>
+                <option>Todos los expedientes</option>
+            </select>
+        </div>
+        <div class="form-row" id="rowExpediente">
+            <label for="expediente">Expediente:</label>
+            <input id="txtExpediente" type="text" data-dojo-type="dijit/form/TextBox" data-dojo-attach-point="txtExpediente" 
+                    data-dojo-props="required:true, intermediateChanges:true"/>          
+        </div>
+        <div class="form-row" id="rowDistanciaBuffer">
+            <label for="distanciaBuffer">Distancia buffer (m):</label>
+            <input id="txtDistanciaBuffer" type="text" data-dojo-type="dijit/form/NumberTextBox" data-dojo-attach-point="txtDistanciaBuffer" 
+                    data-dojo-props="required:true, intermediateChanges:true, constraints:{min:100, max:1000, places:0}"/>          
+        </div>
+    <!--<div class="form-row">
+            <label for="tipoPatrimonio">Tipo patrimonio:</label>
+            <select id="comboTiposPatrimonio" data-dojoType="dijit/form/Select" data-dojo-props="maxHeight:200 style='width:200px', required:true, intermediateChanges" 
+                    data-dojo-attach-point="comboTiposPatrimonio" autocomplete="false" value="" data-dojo-attach-event="onChange:setTipoInfraestructura">
+                <option>AMBIENTAL</option>
+                <option>CULTURAL</option>
+            </select>
+        </div>-->
+        <br>
+        <br>
+        <div class="form-row">
+            <label for="estado">Estado:</label>
+            <span id="estadoGeoproceso" data-dojo-attach-point="estadoGeoproceso"></span>          
+        </div>
+        <div class="form-row">
+            <label for="resultado">Resultado:</label>
+            <span id="resultadoGeoproceso" data-dojo-attach-point="resultadooGeoproceso"></span>          
+        </div>
+        <div class="form-row">
+            <input id="btnCalcularAfecciones" data-dojo-attach-point="btnCalcularAfecciones"  data-dojo-attach-point="btnCalcularAfecciones"  type="button" class="jimu-btn" data-dojo-attach-event="onclick:calcularAfecciones"  data-dojo-attach-point="btnCalcularAfecciones" value="Calcular afecciones"/>
+        </div>    
+    </form>
+</div>

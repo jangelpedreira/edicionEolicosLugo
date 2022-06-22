@@ -1,0 +1,32 @@
+.container {
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    background-color: transparent;
+    margin-left: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.form-row {
+    padding-right: 5px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 30%;
+    padding-right: 5px;
+    text-align: left;
+}
+
+

@@ -1,0 +1,845 @@
+{
+  "layerInfos": [
+    {
+      "name": "Colisions linas",
+      "id": "18153b1722e-layer-55",
+      "layer": {
+        "url": "https://localhost:6443/arcgis/rest/services/ParquesEolicos/Infraestructuras_eolicas_Lugo_Edicion/FeatureServer/0",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "data_rexistro",
+            "alias": "Data rexistro",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear",
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "hay_coord_colis",
+            "alias": "Hay coordenadas colisión",
+            "show": true
+          },
+          {
+            "name": "num_apoio",
+            "alias": "Número apoio",
+            "show": true
+          },
+          {
+            "name": "vano_colisio",
+            "alias": "Vano colisión",
+            "show": true
+          },
+          {
+            "name": "coord_x",
+            "alias": "Coordenada X",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "coord_y",
+            "alias": "Coordenada Y",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false
+          },
+          {
+            "name": "nome_cient",
+            "alias": "Nome científico",
+            "show": true
+          },
+          {
+            "name": "morte_lesio",
+            "alias": "Morte/Lesión",
+            "show": true
+          },
+          {
+            "name": "colision_elect",
+            "alias": "Colisión/Electrocución",
+            "show": true
+          },
+          {
+            "name": "zona_protec",
+            "alias": "Zona protección",
+            "show": true
+          },
+          {
+            "name": "observacio",
+            "alias": "Observaciones",
+            "show": true
+          },
+          {
+            "name": "num_exped",
+            "alias": "Expediente",
+            "show": true
+          },
+          {
+            "name": "concello",
+            "alias": "Concello",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "data_rexistro",
+      "isDescending": false
+    },
+    {
+      "name": "Apoios",
+      "id": "18153b1722d-layer-54",
+      "layer": {
+        "url": "https://localhost:6443/arcgis/rest/services/ParquesEolicos/Infraestructuras_eolicas_Lugo_Edicion/FeatureServer/1",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "num_apoio",
+            "alias": "Número apoio",
+            "show": true
+          },
+          {
+            "name": "coord_x",
+            "alias": "Coordenada X",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "coord_y",
+            "alias": "Coordenada Y",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "num_exped",
+            "alias": "Número expediente",
+            "show": true
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false
+          },
+          {
+            "name": "observacio",
+            "alias": "Observaciones",
+            "show": true
+          },
+          {
+            "name": "concello",
+            "alias": "Concello",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "num_apoio",
+      "isDescending": false
+    },
+    {
+      "name": "Linas",
+      "id": "18153b1722d-layer-53",
+      "layer": {
+        "url": "https://localhost:6443/arcgis/rest/services/ParquesEolicos/Infraestructuras_eolicas_Lugo_Edicion/FeatureServer/2",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "num_exped",
+            "alias": "Expediente",
+            "show": true
+          },
+          {
+            "name": "dist_buffer",
+            "alias": "Distancia buffer",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            }
+          },
+          {
+            "name": "concellos",
+            "alias": "Concellos",
+            "show": true
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "st_length(shape)",
+            "show": false,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "num_exped",
+      "isDescending": false
+    },
+    {
+      "name": "Colisions parques",
+      "id": "18153b1722d-layer-52",
+      "layer": {
+        "url": "https://localhost:6443/arcgis/rest/services/ParquesEolicos/Infraestructuras_eolicas_Lugo_Edicion/FeatureServer/3",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "aero",
+            "alias": "Aeroxenerador",
+            "show": true
+          },
+          {
+            "name": "concello",
+            "alias": "Concello",
+            "show": true
+          },
+          {
+            "name": "coord_x",
+            "alias": "Coordenada X",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "coord_y",
+            "alias": "Coordenada Y",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "data_rexistro",
+            "alias": "Data rexistro",
+            "show": true,
+            "format": {
+              "dateFormat": "longMonthDayYear",
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "num_exped",
+            "alias": "Expediente",
+            "show": true
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false
+          },
+          {
+            "name": "hay_coord_colis",
+            "alias": "Hay coordenadas colisión",
+            "show": true
+          },
+          {
+            "name": "morte_lesio",
+            "alias": "Morte/Lesión",
+            "show": true
+          },
+          {
+            "name": "nome_cient",
+            "alias": "Nome científico",
+            "show": true
+          },
+          {
+            "name": "observacio",
+            "alias": "Observaciones",
+            "show": true
+          },
+          {
+            "name": "zona_protec",
+            "alias": "Zona protección avifauna",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "data_rexistro",
+      "isDescending": false
+    },
+    {
+      "name": "Aeroxeneradores",
+      "id": "18153b1722c-layer-51",
+      "layer": {
+        "url": "https://localhost:6443/arcgis/rest/services/ParquesEolicos/Infraestructuras_eolicas_Lugo_Edicion/FeatureServer/4",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "etiq_xunta",
+            "alias": "Etiqueta Xunta",
+            "show": true
+          },
+          {
+            "name": "situacion",
+            "alias": "Situación",
+            "show": true
+          },
+          {
+            "name": "mod_aero",
+            "alias": "Modelo Aeroxenerador",
+            "show": true
+          },
+          {
+            "name": "altura",
+            "alias": "Altura",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            }
+          },
+          {
+            "name": "diametro",
+            "alias": "Diámetro",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "p_nominal",
+            "alias": "Potencia nominal",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false
+          },
+          {
+            "name": "coord_x",
+            "alias": "Coordenada X",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "coord_y",
+            "alias": "Coordenada Y",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "num_exped",
+            "alias": "Número Expediente",
+            "show": true
+          },
+          {
+            "name": "concello",
+            "alias": "Concello",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "etiq_xunta",
+      "isDescending": false
+    },
+    {
+      "name": "Infraestructuras parques",
+      "id": "18153b1722c-layer-50",
+      "layer": {
+        "url": "https://localhost:6443/arcgis/rest/services/ParquesEolicos/Infraestructuras_eolicas_Lugo_Edicion/FeatureServer/5",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "tipo_infraest",
+            "alias": "Tipo infraestructura",
+            "show": true
+          },
+          {
+            "name": "situacion",
+            "alias": "Situación",
+            "show": true
+          },
+          {
+            "name": "coord_x",
+            "alias": "Coordenada X",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false
+          },
+          {
+            "name": "coord_y",
+            "alias": "Coordenada Y",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "num_exped",
+            "alias": "Número expediente",
+            "show": true
+          },
+          {
+            "name": "concello",
+            "alias": "Concello",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "num_exped",
+      "isDescending": false
+    },
+    {
+      "name": "Limites Parques",
+      "id": "18153b1722c-layer-49",
+      "layer": {
+        "url": "https://localhost:6443/arcgis/rest/services/ParquesEolicos/Infraestructuras_eolicas_Lugo_Edicion/FeatureServer/6",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": false
+          },
+          {
+            "name": "num_exped",
+            "alias": "Expediente",
+            "show": true
+          },
+          {
+            "name": "concellos",
+            "alias": "Concellos",
+            "show": true
+          },
+          {
+            "name": "globalid",
+            "alias": "globalid",
+            "show": false
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "st_area(shape)",
+            "show": false,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "st_length(shape)",
+            "show": false,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "num_exped",
+      "isDescending": false
+    },
+    {
+      "name": "Zonas protección avifauna",
+      "id": "18153b1722b-layer-48",
+      "layer": {
+        "url": "https://localhost:6443/arcgis/rest/services/ParquesEolicos/Infraestructuras_eolicas_Lugo_Edicion/FeatureServer/7",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "giseolicosgdb.giseolicos.ZONAS_PROTECCION_AVIFAUNA.area",
+            "alias": "giseolicosgdb.giseolicos.ZONAS_PROTECCION_AVIFAUNA.area",
+            "show": false,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "id",
+            "alias": "ID",
+            "show": false,
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            }
+          },
+          {
+            "name": "tipo",
+            "alias": "TIPO",
+            "show": true
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "st_area(shape)",
+            "show": false,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "hectareas",
+            "alias": "Hectareas",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "st_length(shape)",
+            "show": false,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "perimetro",
+            "alias": "Perimetro",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "tipo",
+      "isDescending": false
+    },
+    {
+      "name": "Concellos",
+      "id": "18153b1722b-layer-47",
+      "layer": {
+        "url": "https://localhost:6443/arcgis/rest/services/ParquesEolicos/Infraestructuras_eolicas_Lugo_Edicion/FeatureServer/8",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "nomeconcel",
+            "alias": "Nome",
+            "show": true
+          },
+          {
+            "name": "concello",
+            "alias": "Concello",
+            "show": true
+          },
+          {
+            "name": "nomemay",
+            "alias": "Nome mayúsculas",
+            "show": true
+          },
+          {
+            "name": "nomecapita",
+            "alias": "Nome capital",
+            "show": true
+          },
+          {
+            "name": "codconc",
+            "alias": "Código",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "codigoine",
+            "alias": "Código INE",
+            "show": true
+          },
+          {
+            "name": "comarca",
+            "alias": "Comarca",
+            "show": true
+          },
+          {
+            "name": "codcom",
+            "alias": "Código comarca",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "codprov",
+            "alias": "Código provincia",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "provincia",
+            "alias": "Provincia",
+            "show": true
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "shape_Area",
+            "show": false,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "shape_leng",
+            "alias": "Shape_Leng",
+            "show": false,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "shape_Length",
+            "show": false,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "nomeconcel",
+      "isDescending": false
+    },
+    {
+      "name": "Provincias",
+      "id": "18153b1722b-layer-46",
+      "layer": {
+        "url": "https://localhost:6443/arcgis/rest/services/ParquesEolicos/Infraestructuras_eolicas_Lugo_Edicion/FeatureServer/9",
+        "fields": [
+          {
+            "name": "objectid",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "nameunit",
+            "alias": "Nome",
+            "show": true
+          },
+          {
+            "name": "provincia",
+            "alias": "Provincia",
+            "show": true
+          },
+          {
+            "name": "codprov",
+            "alias": "Código provincia",
+            "show": true,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "country",
+            "alias": "País",
+            "show": true
+          },
+          {
+            "name": "codine",
+            "alias": "CODINE",
+            "show": false
+          },
+          {
+            "name": "codnut1",
+            "alias": "CODNUT1",
+            "show": false
+          },
+          {
+            "name": "codnut2",
+            "alias": "CODNUT2",
+            "show": false
+          },
+          {
+            "name": "codnut3",
+            "alias": "CODNUT3",
+            "show": false
+          },
+          {
+            "name": "inspireid",
+            "alias": "INSPIREID",
+            "show": false
+          },
+          {
+            "name": "natlevel",
+            "alias": "Level",
+            "show": false
+          },
+          {
+            "name": "natcode",
+            "alias": "NATCODE",
+            "show": true
+          },
+          {
+            "name": "shape_leng",
+            "alias": "Shape_Leng",
+            "show": false,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "st_area(shape)",
+            "show": false,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "st_length(shape)",
+            "show": false,
+            "format": {
+              "digitSeparator": true,
+              "places": 2
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "nameunit",
+      "isDescending": false
+    },
+    {
+      "name": "CATALOGO AEROS",
+      "id": "18153b1722f-layer-58",
+      "layer": {
+        "url": "https://localhost:6443/arcgis/rest/services/ParquesEolicos/Infraestructuras_eolicas_Lugo_Edicion/FeatureServer/10"
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "modelo",
+      "isDescending": false
+    },
+    {
+      "name": "CATALOGO ESPECIES",
+      "id": "18153b1722f-layer-57",
+      "layer": {
+        "url": "https://localhost:6443/arcgis/rest/services/ParquesEolicos/Infraestructuras_eolicas_Lugo_Edicion/FeatureServer/11"
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "nome_cient",
+      "isDescending": false
+    },
+    {
+      "name": "AFEC PATRIMONIO NATURAL",
+      "id": "18153b1722e-layer-56",
+      "layer": {
+        "url": "https://localhost:6443/arcgis/rest/services/ParquesEolicos/Infraestructuras_eolicas_Lugo_Edicion/FeatureServer/12"
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "num_exped",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false,
+  "filterByMapExtent": true,
+  "allowTextSelection": true,
+  "syncWithLayers": false
+}

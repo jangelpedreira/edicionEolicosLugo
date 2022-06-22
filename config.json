@@ -1,0 +1,2840 @@
+{
+  "theme": {
+    "name": "TabTheme",
+    "styles": [
+      "cyan",
+      "default",
+      "simpleblue",
+      "purple",
+      "red",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "version": "2.24",
+    "sharedTheme": {
+      "useHeader": false,
+      "useLogo": false,
+      "isPortalSupport": true
+    },
+    "customStyles": {
+      "mainBackgroundColor": "#cf142b"
+    }
+  },
+  "portalUrl": "https://japedreiradev.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "Edición de Infraestructuras eólicas  de Lugo",
+  "subtitle": "ArcGIS Server",
+  "keepAppState": true,
+  "logo": "images/logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/TabTheme/widgets/Header/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 44,
+          "relativeTo": "browser"
+        },
+        "version": "2.24",
+        "id": "themes_TabTheme_widgets_Header_Widget_20",
+        "name": "Header"
+      },
+      {
+        "uri": "themes/TabTheme/widgets/Footer/Widget",
+        "position": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0,
+          "height": 24,
+          "relativeTo": "browser"
+        },
+        "version": "2.24",
+        "id": "themes_TabTheme_widgets_Footer_Widget_21",
+        "name": "Footer"
+      },
+      {
+        "uri": "themes/TabTheme/widgets/SidebarController/Widget",
+        "position": {
+          "left": 0,
+          "top": 44,
+          "bottom": 24,
+          "relativeTo": "browser"
+        },
+        "version": "2.24",
+        "id": "themes_TabTheme_widgets_SidebarController_Widget_22",
+        "name": "SidebarController"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 7,
+          "top": 75,
+          "relativeTo": "map"
+        },
+        "version": "2.24",
+        "id": "widgets_HomeButton_Widget_23",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.24",
+        "id": "widgets_Scalebar_Widget_24",
+        "name": "Scalebar",
+        "config": "configs/Scalebar/config_widgets_Scalebar_Widget_24.json"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 45,
+          "top": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.24",
+        "id": "widgets_Search_Widget_25",
+        "name": "Search",
+        "config": "configs/Search/config_widgets_Search_Widget_25.json",
+        "visible": false
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.24",
+        "id": "widgets_Coordinate_Widget_26",
+        "name": "Coordinate",
+        "config": "configs/Coordinate/config_widgets_Coordinate_Widget_26.json"
+      },
+      {
+        "position": {
+          "left": 45,
+          "top": 45,
+          "width": 400,
+          "height": 410,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_27",
+        "name": "Edit",
+        "version": "2.24",
+        "closeable": true,
+        "uri": "widgets/Edit/Widget",
+        "config": "configs/Edit/config__27.json"
+      },
+      {
+        "position": {
+          "left": 95,
+          "top": 45,
+          "width": 380,
+          "height": 410,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_28",
+        "version": "2.23",
+        "closeable": true,
+        "uri": "widgets/CalculateNaturalAfections/Widget",
+        "name": "CalculateNaturalAfections",
+        "label": "Calcular afecciones naturales",
+        "IsController": false
+      },
+      {
+        "position": {
+          "left": 145,
+          "top": 45,
+          "width": 380,
+          "height": 410,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_29",
+        "version": "2.23",
+        "closeable": true,
+        "uri": "widgets/ShowNaturalAffections/Widget",
+        "name": "ShowNaturalAffections",
+        "label": "Mostrar afecciones naturales",
+        "IsController": false
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 0,
+          "bottom": 0,
+          "relativeTo": "map"
+        },
+        "version": "2.24",
+        "id": "widgets_OverviewMap_Widget_30",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 7,
+          "top": 115,
+          "relativeTo": "map"
+        },
+        "version": "2.24",
+        "id": "widgets_MyLocation_Widget_31",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "position": {
+          "bottom": 24,
+          "relativeTo": "browser"
+        },
+        "version": "2.24",
+        "id": "widgets_AttributeTable_Widget_32",
+        "name": "AttributeTable",
+        "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_32.json"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.24",
+        "id": "widgets_Splash_Widget_33",
+        "name": "Splash"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 5,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.24",
+        "id": "widgets_ZoomSlider_Widget_34",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "position": {
+          "top": 155,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.24",
+        "id": "widgets_ExtentNavigate_Widget_35",
+        "name": "ExtentNavigate"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "position": {
+          "right": 8,
+          "top": 8,
+          "relativeTo": "map"
+        },
+        "version": "2.24",
+        "id": "widgets_FullScreen_Widget_36",
+        "name": "FullScreen"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "top": 44,
+      "right": 0,
+      "bottom": 24,
+      "left": 55
+    },
+    "itemId": "ebbdb19d41134600986597e24c26772a",
+    "mapOptions": {},
+    "id": "map",
+    "portalUrl": "https://japedreiradev.maps.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/TabTheme/panels/TabPanel/Panel",
+      "position": {
+        "top": 44,
+        "left": 0,
+        "bottom": 22,
+        "relativeTo": "browser"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.24",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 2
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.24",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 3
+      },
+      {
+        "name": "BasemapGallery",
+        "version": "2.24",
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "configs/BasemapGallery/config_widgets_BasemapGallery_Widget_37.json",
+        "index": 4,
+        "id": "widgets_BasemapGallery_Widget_37"
+      },
+      {
+        "name": "Measurement",
+        "version": "2.24",
+        "uri": "widgets/Measurement/Widget",
+        "config": "configs/Measurement/config_widgets_Measurement_Widget_38.json",
+        "index": 5,
+        "id": "widgets_Measurement_Widget_38"
+      },
+      {
+        "name": "Query",
+        "version": "2.24",
+        "uri": "widgets/Query/Widget",
+        "config": "configs/Query/config_widgets_Query_Widget_39.json",
+        "index": 6,
+        "id": "widgets_Query_Widget_39"
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/TabTheme/widgets/Header/Widget",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "width": 55,
+            "height": 44,
+            "relativeTo": "browser"
+          },
+          "version": "2.24"
+        },
+        {
+          "uri": "themes/TabTheme/widgets/Footer/Widget",
+          "position": {
+            "left": 0,
+            "width": 0,
+            "bottom": 0,
+            "height": 0,
+            "relativeTo": "browser"
+          },
+          "version": "2.24"
+        },
+        {
+          "uri": "themes/TabTheme/widgets/SidebarController/Widget",
+          "position": {
+            "left": 0,
+            "top": 44,
+            "bottom": 0,
+            "relativeTo": "browser"
+          },
+          "version": "2.24"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "position": {
+            "left": 7,
+            "top": 75
+          },
+          "version": "2.24"
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 10,
+            "bottom": 40,
+            "relativeTo": "map"
+          },
+          "version": "2.24"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 45,
+            "top": 5
+          },
+          "version": "2.24"
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 10,
+            "bottom": 20,
+            "relativeTo": "map"
+          },
+          "version": "2.24"
+        },
+        {
+          "position": {
+            "left": 45,
+            "top": 45,
+            "width": 400,
+            "height": 410
+          }
+        },
+        {
+          "position": {
+            "left": 95,
+            "top": 45,
+            "width": 380,
+            "height": 410
+          }
+        },
+        {
+          "position": {
+            "left": 145,
+            "top": 45,
+            "width": 380,
+            "height": 410
+          }
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 0,
+            "bottom": 0
+          },
+          "version": "2.24"
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 115
+          },
+          "version": "2.24"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "position": {
+            "bottom": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.24"
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.24"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "visible": true,
+          "position": {
+            "top": 5,
+            "left": 7
+          },
+          "version": "2.24"
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "top": 155,
+            "left": 7
+          },
+          "version": "2.24"
+        },
+        {
+          "uri": "widgets/FullScreen/Widget",
+          "visible": false,
+          "position": {
+            "right": 8,
+            "top": 8
+          },
+          "version": "2.24"
+        }
+      ]
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/TabTheme/panels/TabPanel/Panel",
+        "position": {
+          "top": 44,
+          "left": 0,
+          "bottom": 22,
+          "relativeTo": "browser"
+        }
+      }
+    },
+    "map": {
+      "position": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 55
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#cf142b",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.24",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {
+      "widget~widgets_Query_Widget_39~0": {
+        "id": "widget~widgets_Query_Widget_39~0",
+        "type": "Features",
+        "label": "Colisions parques",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "objectid",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "hay_coord_colis",
+              "type": "esriFieldTypeString",
+              "alias": "Hay coordenadas colisión",
+              "domain": {
+                "type": "codedValue",
+                "name": "SI_NON",
+                "description": "Si o non",
+                "codedValues": [
+                  {
+                    "name": "si",
+                    "code": "si"
+                  },
+                  {
+                    "name": "non",
+                    "code": "non"
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": false,
+              "length": 254,
+              "defaultValue": "si",
+              "modelName": "hay_coord_colis"
+            },
+            {
+              "name": "coord_x",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada X",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "coord_x"
+            },
+            {
+              "name": "coord_y",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada Y",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "coord_y"
+            },
+            {
+              "name": "aero",
+              "type": "esriFieldTypeString",
+              "alias": "Aeroxenerador",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "length": 254,
+              "defaultValue": "COMPLETAR",
+              "modelName": "aero"
+            },
+            {
+              "name": "data_rexistro",
+              "type": "esriFieldTypeDate",
+              "alias": "Data rexistro",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "length": 8,
+              "defaultValue": null,
+              "modelName": "data_rexistro"
+            },
+            {
+              "name": "nome_cient",
+              "type": "esriFieldTypeString",
+              "alias": "Nome científico",
+              "domain": {
+                "type": "codedValue",
+                "name": "ESPECIES",
+                "description": "Especies de aves",
+                "codedValues": [
+                  {
+                    "name": "Accipiter nisus",
+                    "code": "Accipiter nisus"
+                  },
+                  {
+                    "name": "Aegithalos caudatus",
+                    "code": "Aegithalos caudatus"
+                  },
+                  {
+                    "name": "Alauda arvensis",
+                    "code": "Alauda arvensis"
+                  },
+                  {
+                    "name": "Alectoris rufa",
+                    "code": "Alectoris rufa"
+                  },
+                  {
+                    "name": "Anas platyrhynchos",
+                    "code": "Anas platyrhynchos"
+                  },
+                  {
+                    "name": "Anthus pratensis",
+                    "code": "Anthus pratensis"
+                  },
+                  {
+                    "name": "Anthus sp.",
+                    "code": "Anthus sp."
+                  },
+                  {
+                    "name": "Anthus trivialis",
+                    "code": "Anthus trivialis"
+                  },
+                  {
+                    "name": "Apus apus",
+                    "code": "Apus apus"
+                  },
+                  {
+                    "name": "Ardea cinerea",
+                    "code": "Ardea cinerea"
+                  },
+                  {
+                    "name": "Asio otus",
+                    "code": "Asio otus"
+                  },
+                  {
+                    "name": "Athene noctua",
+                    "code": "Athene noctua"
+                  },
+                  {
+                    "name": "Bubo bubo",
+                    "code": "Bubo bubo"
+                  },
+                  {
+                    "name": "Burhinus oedicnemus",
+                    "code": "Burhinus oedicnemus"
+                  },
+                  {
+                    "name": "Buteo buteo",
+                    "code": "Buteo buteo"
+                  },
+                  {
+                    "name": "Caprimulgus europaeus",
+                    "code": "Caprimulgus europaeus"
+                  },
+                  {
+                    "name": "Carduelis cannabina",
+                    "code": "Carduelis cannabina"
+                  },
+                  {
+                    "name": "Chloris chloris",
+                    "code": "Chloris chloris"
+                  },
+                  {
+                    "name": "Circaetus gallicus",
+                    "code": "Circaetus gallicus"
+                  },
+                  {
+                    "name": "Circus cyaneus",
+                    "code": "Circus cyaneus"
+                  },
+                  {
+                    "name": "Circus pygargus",
+                    "code": "Circus pygargus"
+                  },
+                  {
+                    "name": "Columba livia",
+                    "code": "Columba livia"
+                  },
+                  {
+                    "name": "Columba palumbus",
+                    "code": "Columba palumbus"
+                  },
+                  {
+                    "name": "Corvus corax",
+                    "code": "Corvus corax"
+                  },
+                  {
+                    "name": "Corvus corone",
+                    "code": "Corvus corone"
+                  },
+                  {
+                    "name": "Coturnix coturnix",
+                    "code": "Coturnix coturnix"
+                  },
+                  {
+                    "name": "Cuculus canorus",
+                    "code": "Cuculus canorus"
+                  },
+                  {
+                    "name": "Delichon urbicum",
+                    "code": "Delichon urbicum"
+                  },
+                  {
+                    "name": "Dendrocopos major",
+                    "code": "Dendrocopos major"
+                  },
+                  {
+                    "name": "Emberiza cia",
+                    "code": "Emberiza cia"
+                  },
+                  {
+                    "name": "Emberiza citrinella",
+                    "code": "Emberiza citrinella"
+                  },
+                  {
+                    "name": "Emberiza sp.",
+                    "code": "Emberiza sp."
+                  },
+                  {
+                    "name": "Eptesicus serotinus",
+                    "code": "Eptesicus serotinus"
+                  },
+                  {
+                    "name": "Erithacus rubecula",
+                    "code": "Erithacus rubecula"
+                  },
+                  {
+                    "name": "Falco naumanni",
+                    "code": "Falco naumanni"
+                  },
+                  {
+                    "name": "Falco peregrinus",
+                    "code": "Falco peregrinus"
+                  },
+                  {
+                    "name": "Falco subbuteo",
+                    "code": "Falco subbuteo"
+                  },
+                  {
+                    "name": "Falco tinnunculus",
+                    "code": "Falco tinnunculus"
+                  },
+                  {
+                    "name": "Fringilla coelebs",
+                    "code": "Fringilla coelebs"
+                  },
+                  {
+                    "name": "Garrulus glandarius",
+                    "code": "Garrulus glandarius"
+                  },
+                  {
+                    "name": "Grus grus",
+                    "code": "Grus grus"
+                  },
+                  {
+                    "name": "Gyps fulvus",
+                    "code": "Gyps fulvus"
+                  },
+                  {
+                    "name": "Hieraaetus pennatus",
+                    "code": "Hieraaetus pennatus"
+                  },
+                  {
+                    "name": "Hirundo rustica",
+                    "code": "Hirundo rustica"
+                  },
+                  {
+                    "name": "Hypsugo savii",
+                    "code": "Hypsugo savii"
+                  },
+                  {
+                    "name": "Lanius meridionalis",
+                    "code": "Lanius meridionalis"
+                  },
+                  {
+                    "name": "Larus michahellis",
+                    "code": "Larus michahellis"
+                  },
+                  {
+                    "name": "Lullula arborea",
+                    "code": "Lullula arborea"
+                  },
+                  {
+                    "name": "Milvus migrans",
+                    "code": "Milvus migrans"
+                  },
+                  {
+                    "name": "Oenanthe oenanthe",
+                    "code": "Oenanthe oenanthe"
+                  },
+                  {
+                    "name": "Otus scops",
+                    "code": "Otus scops"
+                  },
+                  {
+                    "name": "Pandion haliaetus",
+                    "code": "Pandion haliaetus"
+                  },
+                  {
+                    "name": "Paseriforme sen identificar",
+                    "code": "Paseriforme sen identificar"
+                  },
+                  {
+                    "name": "Passer sp.",
+                    "code": "Passer sp."
+                  },
+                  {
+                    "name": "Pernis apivorus",
+                    "code": "Pernis apivorus"
+                  },
+                  {
+                    "name": "Phalacrocorax carbo",
+                    "code": "Phalacrocorax carbo"
+                  },
+                  {
+                    "name": "Phoenicurus ochruros",
+                    "code": "Phoenicurus ochruros"
+                  },
+                  {
+                    "name": "Phylloscopus collybita",
+                    "code": "Phylloscopus collybita"
+                  },
+                  {
+                    "name": "Phylloscopus ibericus",
+                    "code": "Phylloscopus ibericus"
+                  },
+                  {
+                    "name": "Pica pica",
+                    "code": "Pica pica"
+                  },
+                  {
+                    "name": "Picus sharpei",
+                    "code": "Picus sharpei"
+                  },
+                  {
+                    "name": "Picus viridis",
+                    "code": "Picus viridis"
+                  },
+                  {
+                    "name": "Pipistrellus pipistrellus",
+                    "code": "Pipistrellus pipistrellus"
+                  },
+                  {
+                    "name": "Pipistrellus pygmaeus",
+                    "code": "Pipistrellus pygmaeus"
+                  },
+                  {
+                    "name": "Pluvialis apricaria",
+                    "code": "Pluvialis apricaria"
+                  },
+                  {
+                    "name": "Podiceps cristatus",
+                    "code": "Podiceps cristatus"
+                  },
+                  {
+                    "name": "Prunella modularis",
+                    "code": "Prunella modularis"
+                  },
+                  {
+                    "name": "Pterocles alchata",
+                    "code": "Pterocles alchata"
+                  },
+                  {
+                    "name": "Ptyonoprogne rupestris",
+                    "code": "Ptyonoprogne rupestris"
+                  },
+                  {
+                    "name": "Puffinus puffinus",
+                    "code": "Puffinus puffinus"
+                  },
+                  {
+                    "name": "Pyrrhula pyrrhula",
+                    "code": "Pyrrhula pyrrhula"
+                  },
+                  {
+                    "name": "Rapaz sen identificar",
+                    "code": "Rapaz sen identificar"
+                  },
+                  {
+                    "name": "Regulus ignicapilla",
+                    "code": "Regulus ignicapilla"
+                  },
+                  {
+                    "name": "Saxicola rubicola",
+                    "code": "Saxicola rubicola"
+                  },
+                  {
+                    "name": "Saxicola torquatus",
+                    "code": "Saxicola torquatus"
+                  },
+                  {
+                    "name": "Scolopax rusticola",
+                    "code": "Scolopax rusticola"
+                  },
+                  {
+                    "name": "Sen identificar",
+                    "code": "Sen identificar"
+                  },
+                  {
+                    "name": "Streptopelia decaocto",
+                    "code": "Streptopelia decaocto"
+                  },
+                  {
+                    "name": "Streptopelia turtur",
+                    "code": "Streptopelia turtur"
+                  },
+                  {
+                    "name": "Strix aluco",
+                    "code": "Strix aluco"
+                  },
+                  {
+                    "name": "Sturnus unicolor",
+                    "code": "Sturnus unicolor"
+                  },
+                  {
+                    "name": "Sylvia atricapilla",
+                    "code": "Sylvia atricapilla"
+                  },
+                  {
+                    "name": "Sylvia sp.",
+                    "code": "Sylvia sp."
+                  },
+                  {
+                    "name": "Sylvia undata",
+                    "code": "Sylvia undata"
+                  },
+                  {
+                    "name": "Tadarida teniotis",
+                    "code": "Tadarida teniotis"
+                  },
+                  {
+                    "name": "Turdus iliacus",
+                    "code": "Turdus iliacus"
+                  },
+                  {
+                    "name": "Turdus merula",
+                    "code": "Turdus merula"
+                  },
+                  {
+                    "name": "Turdus philomelos",
+                    "code": "Turdus philomelos"
+                  },
+                  {
+                    "name": "Turdus pilaris",
+                    "code": "Turdus pilaris"
+                  },
+                  {
+                    "name": "Turdus sp.",
+                    "code": "Turdus sp."
+                  },
+                  {
+                    "name": "Turdus viscivorus",
+                    "code": "Turdus viscivorus"
+                  },
+                  {
+                    "name": "Tyto alba",
+                    "code": "Tyto alba"
+                  },
+                  {
+                    "name": "Upupa epops",
+                    "code": "Upupa epops"
+                  },
+                  {
+                    "name": "Vanellus vanellus",
+                    "code": "Vanellus vanellus"
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": false,
+              "length": 254,
+              "defaultValue": "Accipiter nisus",
+              "modelName": "nome_cient"
+            },
+            {
+              "name": "morte_lesio",
+              "type": "esriFieldTypeString",
+              "alias": "Morte/Lesión",
+              "domain": {
+                "type": "codedValue",
+                "name": "MORTE_LESIO",
+                "description": "Morte o lesio",
+                "codedValues": [
+                  {
+                    "name": "Lesio",
+                    "code": "Lesio"
+                  },
+                  {
+                    "name": "Morte",
+                    "code": "Morte"
+                  },
+                  {
+                    "name": "Non determinado",
+                    "code": "Non determinado"
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": false,
+              "length": 50,
+              "defaultValue": "Morte",
+              "modelName": "morte_lesio"
+            },
+            {
+              "name": "concello",
+              "type": "esriFieldTypeString",
+              "alias": "Concello",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "length": 254,
+              "defaultValue": null,
+              "modelName": "concello"
+            },
+            {
+              "name": "observacio",
+              "type": "esriFieldTypeString",
+              "alias": "Observaciones",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 254,
+              "defaultValue": null,
+              "modelName": "observacio"
+            },
+            {
+              "name": "zona_protec",
+              "type": "esriFieldTypeString",
+              "alias": "Zona protección avifauna",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 50,
+              "defaultValue": null,
+              "modelName": "zona_protec"
+            },
+            {
+              "name": "num_exped",
+              "type": "esriFieldTypeString",
+              "alias": "Expediente",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "length": 20,
+              "defaultValue": null,
+              "modelName": "num_exped"
+            },
+            {
+              "name": "globalid",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "globalid",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "length": 38,
+              "defaultValue": null,
+              "modelName": "globalid"
+            }
+          ],
+          "displayField": "aero",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "objectid",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": ""
+        }
+      },
+      "widget~widgets_Query_Widget_39~1": {
+        "id": "widget~widgets_Query_Widget_39~1",
+        "type": "Features",
+        "label": "Colisions linas",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "objectid",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "hay_coord_colis",
+              "type": "esriFieldTypeString",
+              "alias": "Hay coordenadas colisión",
+              "domain": {
+                "type": "codedValue",
+                "name": "SI_NON",
+                "description": "Si o non",
+                "codedValues": [
+                  {
+                    "name": "si",
+                    "code": "si"
+                  },
+                  {
+                    "name": "non",
+                    "code": "non"
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": false,
+              "length": 254,
+              "defaultValue": "si",
+              "modelName": "hay_coord_colis"
+            },
+            {
+              "name": "coord_x",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada X",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "coord_x"
+            },
+            {
+              "name": "coord_y",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada Y",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "coord_y"
+            },
+            {
+              "name": "num_apoio",
+              "type": "esriFieldTypeString",
+              "alias": "Número apoio",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 50,
+              "defaultValue": null,
+              "modelName": "num_apoio"
+            },
+            {
+              "name": "vano_colisio",
+              "type": "esriFieldTypeString",
+              "alias": "Vano colisión",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 50,
+              "defaultValue": null,
+              "modelName": "vano_colisio"
+            },
+            {
+              "name": "data_rexistro",
+              "type": "esriFieldTypeDate",
+              "alias": "Data rexistro",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "length": 8,
+              "defaultValue": null,
+              "modelName": "data_rexistro"
+            },
+            {
+              "name": "nome_cient",
+              "type": "esriFieldTypeString",
+              "alias": "Nome científico",
+              "domain": {
+                "type": "codedValue",
+                "name": "ESPECIES",
+                "description": "Especies de aves",
+                "codedValues": [
+                  {
+                    "name": "Accipiter nisus",
+                    "code": "Accipiter nisus"
+                  },
+                  {
+                    "name": "Aegithalos caudatus",
+                    "code": "Aegithalos caudatus"
+                  },
+                  {
+                    "name": "Alauda arvensis",
+                    "code": "Alauda arvensis"
+                  },
+                  {
+                    "name": "Alectoris rufa",
+                    "code": "Alectoris rufa"
+                  },
+                  {
+                    "name": "Anas platyrhynchos",
+                    "code": "Anas platyrhynchos"
+                  },
+                  {
+                    "name": "Anthus pratensis",
+                    "code": "Anthus pratensis"
+                  },
+                  {
+                    "name": "Anthus sp.",
+                    "code": "Anthus sp."
+                  },
+                  {
+                    "name": "Anthus trivialis",
+                    "code": "Anthus trivialis"
+                  },
+                  {
+                    "name": "Apus apus",
+                    "code": "Apus apus"
+                  },
+                  {
+                    "name": "Ardea cinerea",
+                    "code": "Ardea cinerea"
+                  },
+                  {
+                    "name": "Asio otus",
+                    "code": "Asio otus"
+                  },
+                  {
+                    "name": "Athene noctua",
+                    "code": "Athene noctua"
+                  },
+                  {
+                    "name": "Bubo bubo",
+                    "code": "Bubo bubo"
+                  },
+                  {
+                    "name": "Burhinus oedicnemus",
+                    "code": "Burhinus oedicnemus"
+                  },
+                  {
+                    "name": "Buteo buteo",
+                    "code": "Buteo buteo"
+                  },
+                  {
+                    "name": "Caprimulgus europaeus",
+                    "code": "Caprimulgus europaeus"
+                  },
+                  {
+                    "name": "Carduelis cannabina",
+                    "code": "Carduelis cannabina"
+                  },
+                  {
+                    "name": "Chloris chloris",
+                    "code": "Chloris chloris"
+                  },
+                  {
+                    "name": "Circaetus gallicus",
+                    "code": "Circaetus gallicus"
+                  },
+                  {
+                    "name": "Circus cyaneus",
+                    "code": "Circus cyaneus"
+                  },
+                  {
+                    "name": "Circus pygargus",
+                    "code": "Circus pygargus"
+                  },
+                  {
+                    "name": "Columba livia",
+                    "code": "Columba livia"
+                  },
+                  {
+                    "name": "Columba palumbus",
+                    "code": "Columba palumbus"
+                  },
+                  {
+                    "name": "Corvus corax",
+                    "code": "Corvus corax"
+                  },
+                  {
+                    "name": "Corvus corone",
+                    "code": "Corvus corone"
+                  },
+                  {
+                    "name": "Coturnix coturnix",
+                    "code": "Coturnix coturnix"
+                  },
+                  {
+                    "name": "Cuculus canorus",
+                    "code": "Cuculus canorus"
+                  },
+                  {
+                    "name": "Delichon urbicum",
+                    "code": "Delichon urbicum"
+                  },
+                  {
+                    "name": "Dendrocopos major",
+                    "code": "Dendrocopos major"
+                  },
+                  {
+                    "name": "Emberiza cia",
+                    "code": "Emberiza cia"
+                  },
+                  {
+                    "name": "Emberiza citrinella",
+                    "code": "Emberiza citrinella"
+                  },
+                  {
+                    "name": "Emberiza sp.",
+                    "code": "Emberiza sp."
+                  },
+                  {
+                    "name": "Eptesicus serotinus",
+                    "code": "Eptesicus serotinus"
+                  },
+                  {
+                    "name": "Erithacus rubecula",
+                    "code": "Erithacus rubecula"
+                  },
+                  {
+                    "name": "Falco naumanni",
+                    "code": "Falco naumanni"
+                  },
+                  {
+                    "name": "Falco peregrinus",
+                    "code": "Falco peregrinus"
+                  },
+                  {
+                    "name": "Falco subbuteo",
+                    "code": "Falco subbuteo"
+                  },
+                  {
+                    "name": "Falco tinnunculus",
+                    "code": "Falco tinnunculus"
+                  },
+                  {
+                    "name": "Fringilla coelebs",
+                    "code": "Fringilla coelebs"
+                  },
+                  {
+                    "name": "Garrulus glandarius",
+                    "code": "Garrulus glandarius"
+                  },
+                  {
+                    "name": "Grus grus",
+                    "code": "Grus grus"
+                  },
+                  {
+                    "name": "Gyps fulvus",
+                    "code": "Gyps fulvus"
+                  },
+                  {
+                    "name": "Hieraaetus pennatus",
+                    "code": "Hieraaetus pennatus"
+                  },
+                  {
+                    "name": "Hirundo rustica",
+                    "code": "Hirundo rustica"
+                  },
+                  {
+                    "name": "Hypsugo savii",
+                    "code": "Hypsugo savii"
+                  },
+                  {
+                    "name": "Lanius meridionalis",
+                    "code": "Lanius meridionalis"
+                  },
+                  {
+                    "name": "Larus michahellis",
+                    "code": "Larus michahellis"
+                  },
+                  {
+                    "name": "Lullula arborea",
+                    "code": "Lullula arborea"
+                  },
+                  {
+                    "name": "Milvus migrans",
+                    "code": "Milvus migrans"
+                  },
+                  {
+                    "name": "Oenanthe oenanthe",
+                    "code": "Oenanthe oenanthe"
+                  },
+                  {
+                    "name": "Otus scops",
+                    "code": "Otus scops"
+                  },
+                  {
+                    "name": "Pandion haliaetus",
+                    "code": "Pandion haliaetus"
+                  },
+                  {
+                    "name": "Paseriforme sen identificar",
+                    "code": "Paseriforme sen identificar"
+                  },
+                  {
+                    "name": "Passer sp.",
+                    "code": "Passer sp."
+                  },
+                  {
+                    "name": "Pernis apivorus",
+                    "code": "Pernis apivorus"
+                  },
+                  {
+                    "name": "Phalacrocorax carbo",
+                    "code": "Phalacrocorax carbo"
+                  },
+                  {
+                    "name": "Phoenicurus ochruros",
+                    "code": "Phoenicurus ochruros"
+                  },
+                  {
+                    "name": "Phylloscopus collybita",
+                    "code": "Phylloscopus collybita"
+                  },
+                  {
+                    "name": "Phylloscopus ibericus",
+                    "code": "Phylloscopus ibericus"
+                  },
+                  {
+                    "name": "Pica pica",
+                    "code": "Pica pica"
+                  },
+                  {
+                    "name": "Picus sharpei",
+                    "code": "Picus sharpei"
+                  },
+                  {
+                    "name": "Picus viridis",
+                    "code": "Picus viridis"
+                  },
+                  {
+                    "name": "Pipistrellus pipistrellus",
+                    "code": "Pipistrellus pipistrellus"
+                  },
+                  {
+                    "name": "Pipistrellus pygmaeus",
+                    "code": "Pipistrellus pygmaeus"
+                  },
+                  {
+                    "name": "Pluvialis apricaria",
+                    "code": "Pluvialis apricaria"
+                  },
+                  {
+                    "name": "Podiceps cristatus",
+                    "code": "Podiceps cristatus"
+                  },
+                  {
+                    "name": "Prunella modularis",
+                    "code": "Prunella modularis"
+                  },
+                  {
+                    "name": "Pterocles alchata",
+                    "code": "Pterocles alchata"
+                  },
+                  {
+                    "name": "Ptyonoprogne rupestris",
+                    "code": "Ptyonoprogne rupestris"
+                  },
+                  {
+                    "name": "Puffinus puffinus",
+                    "code": "Puffinus puffinus"
+                  },
+                  {
+                    "name": "Pyrrhula pyrrhula",
+                    "code": "Pyrrhula pyrrhula"
+                  },
+                  {
+                    "name": "Rapaz sen identificar",
+                    "code": "Rapaz sen identificar"
+                  },
+                  {
+                    "name": "Regulus ignicapilla",
+                    "code": "Regulus ignicapilla"
+                  },
+                  {
+                    "name": "Saxicola rubicola",
+                    "code": "Saxicola rubicola"
+                  },
+                  {
+                    "name": "Saxicola torquatus",
+                    "code": "Saxicola torquatus"
+                  },
+                  {
+                    "name": "Scolopax rusticola",
+                    "code": "Scolopax rusticola"
+                  },
+                  {
+                    "name": "Sen identificar",
+                    "code": "Sen identificar"
+                  },
+                  {
+                    "name": "Streptopelia decaocto",
+                    "code": "Streptopelia decaocto"
+                  },
+                  {
+                    "name": "Streptopelia turtur",
+                    "code": "Streptopelia turtur"
+                  },
+                  {
+                    "name": "Strix aluco",
+                    "code": "Strix aluco"
+                  },
+                  {
+                    "name": "Sturnus unicolor",
+                    "code": "Sturnus unicolor"
+                  },
+                  {
+                    "name": "Sylvia atricapilla",
+                    "code": "Sylvia atricapilla"
+                  },
+                  {
+                    "name": "Sylvia sp.",
+                    "code": "Sylvia sp."
+                  },
+                  {
+                    "name": "Sylvia undata",
+                    "code": "Sylvia undata"
+                  },
+                  {
+                    "name": "Tadarida teniotis",
+                    "code": "Tadarida teniotis"
+                  },
+                  {
+                    "name": "Turdus iliacus",
+                    "code": "Turdus iliacus"
+                  },
+                  {
+                    "name": "Turdus merula",
+                    "code": "Turdus merula"
+                  },
+                  {
+                    "name": "Turdus philomelos",
+                    "code": "Turdus philomelos"
+                  },
+                  {
+                    "name": "Turdus pilaris",
+                    "code": "Turdus pilaris"
+                  },
+                  {
+                    "name": "Turdus sp.",
+                    "code": "Turdus sp."
+                  },
+                  {
+                    "name": "Turdus viscivorus",
+                    "code": "Turdus viscivorus"
+                  },
+                  {
+                    "name": "Tyto alba",
+                    "code": "Tyto alba"
+                  },
+                  {
+                    "name": "Upupa epops",
+                    "code": "Upupa epops"
+                  },
+                  {
+                    "name": "Vanellus vanellus",
+                    "code": "Vanellus vanellus"
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": false,
+              "length": 254,
+              "defaultValue": "Accipiter nisus",
+              "modelName": "nome_cient"
+            },
+            {
+              "name": "morte_lesio",
+              "type": "esriFieldTypeString",
+              "alias": "Morte/Lesión",
+              "domain": {
+                "type": "codedValue",
+                "name": "MORTE_LESIO",
+                "description": "Morte o lesio",
+                "codedValues": [
+                  {
+                    "name": "Lesio",
+                    "code": "Lesio"
+                  },
+                  {
+                    "name": "Morte",
+                    "code": "Morte"
+                  },
+                  {
+                    "name": "Non determinado",
+                    "code": "Non determinado"
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": false,
+              "length": 50,
+              "defaultValue": "Morte",
+              "modelName": "morte_lesio"
+            },
+            {
+              "name": "colision_elect",
+              "type": "esriFieldTypeString",
+              "alias": "Colisión/Electrocución",
+              "domain": {
+                "type": "codedValue",
+                "name": "COLISION_ELECTROCUCION",
+                "description": "Colisión o electrocución",
+                "codedValues": [
+                  {
+                    "name": "Colisión",
+                    "code": "Colisión"
+                  },
+                  {
+                    "name": "Electrocución",
+                    "code": "Electrocución"
+                  },
+                  {
+                    "name": "Non determinado",
+                    "code": "Non determinado"
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": false,
+              "length": 50,
+              "defaultValue": "Colisión",
+              "modelName": "colision_elect"
+            },
+            {
+              "name": "zona_protec",
+              "type": "esriFieldTypeString",
+              "alias": "Zona protección",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 50,
+              "defaultValue": null,
+              "modelName": "zona_protec"
+            },
+            {
+              "name": "observacio",
+              "type": "esriFieldTypeString",
+              "alias": "Observaciones",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 254,
+              "defaultValue": null,
+              "modelName": "observacio"
+            },
+            {
+              "name": "num_exped",
+              "type": "esriFieldTypeString",
+              "alias": "Expediente",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "length": 20,
+              "defaultValue": "COMPLETAR",
+              "modelName": "num_exped"
+            },
+            {
+              "name": "concello",
+              "type": "esriFieldTypeString",
+              "alias": "Concello",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "length": 254,
+              "defaultValue": null,
+              "modelName": "concello"
+            },
+            {
+              "name": "globalid",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "globalid",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "length": 38,
+              "defaultValue": null,
+              "modelName": "globalid"
+            }
+          ],
+          "displayField": "hay_coord_colis",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "objectid",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": ""
+        }
+      },
+      "widget~widgets_Query_Widget_39~2": {
+        "id": "widget~widgets_Query_Widget_39~2",
+        "type": "Features",
+        "label": "Limites Parques",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "objectid",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "num_exped",
+              "type": "esriFieldTypeString",
+              "alias": "Expediente",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "length": 20,
+              "defaultValue": null,
+              "modelName": "num_exped"
+            },
+            {
+              "name": "concellos",
+              "type": "esriFieldTypeString",
+              "alias": "Concellos",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 512,
+              "defaultValue": null,
+              "modelName": "concellos"
+            },
+            {
+              "name": "globalid",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "globalid",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "length": 38,
+              "defaultValue": null,
+              "modelName": "globalid"
+            },
+            {
+              "name": "Shape__Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "st_area(shape)",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "st_area(shape)"
+            },
+            {
+              "name": "Shape__Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "st_length(shape)",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "st_length(shape)"
+            }
+          ],
+          "displayField": "NUM_EXPED",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "objectid",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": ""
+        }
+      },
+      "widget~widgets_Query_Widget_39~3": {
+        "id": "widget~widgets_Query_Widget_39~3",
+        "type": "Features",
+        "label": "Linas",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolyline",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "objectid",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "num_exped",
+              "type": "esriFieldTypeString",
+              "alias": "Expediente",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "length": 254,
+              "defaultValue": null,
+              "modelName": "num_exped"
+            },
+            {
+              "name": "dist_buffer",
+              "type": "esriFieldTypeInteger",
+              "alias": "Distancia buffer",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "dist_buffer"
+            },
+            {
+              "name": "concellos",
+              "type": "esriFieldTypeString",
+              "alias": "Concellos",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 512,
+              "defaultValue": null,
+              "modelName": "concellos"
+            },
+            {
+              "name": "globalid",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "globalid",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "length": 38,
+              "defaultValue": null,
+              "modelName": "globalid"
+            },
+            {
+              "name": "Shape__Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "st_length(shape)",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "st_length(shape)"
+            }
+          ],
+          "displayField": "num_exped",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "objectid",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": ""
+        }
+      },
+      "widget~widgets_Query_Widget_39~4": {
+        "id": "widget~widgets_Query_Widget_39~4",
+        "type": "Features",
+        "label": "Aeroxeneradores",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "objectid",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "coord_x",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada X",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "coord_x"
+            },
+            {
+              "name": "coord_y",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada Y",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "coord_y"
+            },
+            {
+              "name": "mod_aero",
+              "type": "esriFieldTypeString",
+              "alias": "Modelo Aeroxenerador",
+              "domain": {
+                "type": "codedValue",
+                "name": "MODELOS_AEROS",
+                "description": "Modelos de Aeroxeneradores",
+                "codedValues": [
+                  {
+                    "name": "Desconocido",
+                    "code": "Desconocido"
+                  },
+                  {
+                    "name": "A-30",
+                    "code": "A-30"
+                  },
+                  {
+                    "name": "A-300",
+                    "code": "A-300"
+                  },
+                  {
+                    "name": "Acciona Windpower AW-109/3000",
+                    "code": "Acciona Windpower AW-109/3000"
+                  },
+                  {
+                    "name": "Acciona Windpower AW-116/3000",
+                    "code": "Acciona Windpower AW-116/3000"
+                  },
+                  {
+                    "name": "Acciona Windpower AW-132",
+                    "code": "Acciona Windpower AW-132"
+                  },
+                  {
+                    "name": "Acciona Windpower AW-77/1500",
+                    "code": "Acciona Windpower AW-77/1500"
+                  },
+                  {
+                    "name": "Bazan-Bonus",
+                    "code": "Bazan-Bonus"
+                  },
+                  {
+                    "name": "Bazan-Bonus 1300",
+                    "code": "Bazan-Bonus 1300"
+                  },
+                  {
+                    "name": "Bazan-Bonus 600",
+                    "code": "Bazan-Bonus 600"
+                  },
+                  {
+                    "name": "Ecotecnia 1500",
+                    "code": "Ecotecnia 1500"
+                  },
+                  {
+                    "name": "Ecotecnia ECO-44",
+                    "code": "Ecotecnia ECO-44"
+                  },
+                  {
+                    "name": "Ecotecnia ECO-44 / 640",
+                    "code": "Ecotecnia ECO-44 / 640"
+                  },
+                  {
+                    "name": "Ecotecnia ECO-48",
+                    "code": "Ecotecnia ECO-48"
+                  },
+                  {
+                    "name": "Ecotecnia ECO-74",
+                    "code": "Ecotecnia ECO-74"
+                  },
+                  {
+                    "name": "Ecotecnia ECO-80",
+                    "code": "Ecotecnia ECO-80"
+                  },
+                  {
+                    "name": "Enercon E-101",
+                    "code": "Enercon E-101"
+                  },
+                  {
+                    "name": "Enercon E-126",
+                    "code": "Enercon E-126"
+                  },
+                  {
+                    "name": "Enercon E-44",
+                    "code": "Enercon E-44"
+                  },
+                  {
+                    "name": "Enercon E-48",
+                    "code": "Enercon E-48"
+                  },
+                  {
+                    "name": "Enercon E-53",
+                    "code": "Enercon E-53"
+                  },
+                  {
+                    "name": "Enercon E-70",
+                    "code": "Enercon E-70"
+                  },
+                  {
+                    "name": "Enercon E-70 E4",
+                    "code": "Enercon E-70 E4"
+                  },
+                  {
+                    "name": "Enercon E-82",
+                    "code": "Enercon E-82"
+                  },
+                  {
+                    "name": "Enercon E-92",
+                    "code": "Enercon E-92"
+                  },
+                  {
+                    "name": "Enercon Lagerwey L-136",
+                    "code": "Enercon Lagerwey L-136"
+                  },
+                  {
+                    "name": "Eozen-Vensys 78",
+                    "code": "Eozen-Vensys 78"
+                  },
+                  {
+                    "name": "Gamesa G-10X",
+                    "code": "Gamesa G-10X"
+                  },
+                  {
+                    "name": "Gamesa G-114",
+                    "code": "Gamesa G-114"
+                  },
+                  {
+                    "name": "Gamesa G-128",
+                    "code": "Gamesa G-128"
+                  },
+                  {
+                    "name": "Gamesa G-132",
+                    "code": "Gamesa G-132"
+                  },
+                  {
+                    "name": "Gamesa G-47",
+                    "code": "Gamesa G-47"
+                  },
+                  {
+                    "name": "Gamesa G-52",
+                    "code": "Gamesa G-52"
+                  },
+                  {
+                    "name": "Gamesa G-58",
+                    "code": "Gamesa G-58"
+                  },
+                  {
+                    "name": "Gamesa G-80",
+                    "code": "Gamesa G-80"
+                  },
+                  {
+                    "name": "Gamesa G-83",
+                    "code": "Gamesa G-83"
+                  },
+                  {
+                    "name": "Gamesa G-87",
+                    "code": "Gamesa G-87"
+                  },
+                  {
+                    "name": "Gamesa G-8X",
+                    "code": "Gamesa G-8X"
+                  },
+                  {
+                    "name": "Gamesa G-90",
+                    "code": "Gamesa G-90"
+                  },
+                  {
+                    "name": "Gamesa G-97",
+                    "code": "Gamesa G-97"
+                  },
+                  {
+                    "name": "GE 3,8",
+                    "code": "GE 3,8"
+                  },
+                  {
+                    "name": "Izar-Bonus",
+                    "code": "Izar-Bonus"
+                  },
+                  {
+                    "name": "Izar-Bonus 1300",
+                    "code": "Izar-Bonus 1300"
+                  },
+                  {
+                    "name": "M Torres TWT",
+                    "code": "M Torres TWT"
+                  },
+                  {
+                    "name": "Made AE-30",
+                    "code": "Made AE-30"
+                  },
+                  {
+                    "name": "Made AE-46",
+                    "code": "Made AE-46"
+                  },
+                  {
+                    "name": "Made AE-52",
+                    "code": "Made AE-52"
+                  },
+                  {
+                    "name": "Made AE-61",
+                    "code": "Made AE-61"
+                  },
+                  {
+                    "name": "Navantia-Siemens",
+                    "code": "Navantia-Siemens"
+                  },
+                  {
+                    "name": "Navantia-Siemens Bonus Mk-IV",
+                    "code": "Navantia-Siemens Bonus Mk-IV"
+                  },
+                  {
+                    "name": "Navantia-Siemens Izar 55/1300",
+                    "code": "Navantia-Siemens Izar 55/1300"
+                  },
+                  {
+                    "name": "NED100",
+                    "code": "NED100"
+                  },
+                  {
+                    "name": "Neg Micon NM-48 Multipower",
+                    "code": "Neg Micon NM-48 Multipower"
+                  },
+                  {
+                    "name": "Neg Micon NM-52 Multipower",
+                    "code": "Neg Micon NM-52 Multipower"
+                  },
+                  {
+                    "name": "Neg Micon NM-750/52",
+                    "code": "Neg Micon NM-750/52"
+                  },
+                  {
+                    "name": "Neg Micon NM-900/52",
+                    "code": "Neg Micon NM-900/52"
+                  },
+                  {
+                    "name": "Neg-Micon NM-720/1500",
+                    "code": "Neg-Micon NM-720/1500"
+                  },
+                  {
+                    "name": "Neg-Micon NM-750",
+                    "code": "Neg-Micon NM-750"
+                  },
+                  {
+                    "name": "Neg-Micon NM-750/44",
+                    "code": "Neg-Micon NM-750/44"
+                  },
+                  {
+                    "name": "Neg-Micon NM-750/44-48",
+                    "code": "Neg-Micon NM-750/44-48"
+                  },
+                  {
+                    "name": "Neg-Micon NM-900/52",
+                    "code": "Neg-Micon NM-900/52"
+                  },
+                  {
+                    "name": "Nordtank NTK-600/43",
+                    "code": "Nordtank NTK-600/43"
+                  },
+                  {
+                    "name": "Norvento Energía Distribuida",
+                    "code": "Norvento Energía Distribuida"
+                  },
+                  {
+                    "name": "PROTOTIPO 100KW",
+                    "code": "PROTOTIPO 100KW"
+                  },
+                  {
+                    "name": "Prototipo Experimental NED-100",
+                    "code": "Prototipo Experimental NED-100"
+                  },
+                  {
+                    "name": "Siemens SWR-2.3",
+                    "code": "Siemens SWR-2.3"
+                  },
+                  {
+                    "name": "Vensys 100",
+                    "code": "Vensys 100"
+                  },
+                  {
+                    "name": "Vensys 77",
+                    "code": "Vensys 77"
+                  },
+                  {
+                    "name": "Vestas V-100",
+                    "code": "Vestas V-100"
+                  },
+                  {
+                    "name": "Vestas V-112",
+                    "code": "Vestas V-112"
+                  },
+                  {
+                    "name": "Vestas V-117",
+                    "code": "Vestas V-117"
+                  },
+                  {
+                    "name": "Vestas V-126",
+                    "code": "Vestas V-126"
+                  },
+                  {
+                    "name": "Vestas V-136",
+                    "code": "Vestas V-136"
+                  },
+                  {
+                    "name": "Vestas V-52",
+                    "code": "Vestas V-52"
+                  },
+                  {
+                    "name": "Vestas V-80",
+                    "code": "Vestas V-80"
+                  },
+                  {
+                    "name": "Vestas V-90",
+                    "code": "Vestas V-90"
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": false,
+              "length": 254,
+              "defaultValue": "A-30",
+              "modelName": "mod_aero"
+            },
+            {
+              "name": "altura",
+              "type": "esriFieldTypeInteger",
+              "alias": "Altura",
+              "domain": {
+                "type": "range",
+                "name": "ALTURA_AEROS",
+                "description": "Altura de los aeroxeneradors",
+                "range": [
+                  20,
+                  200
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": false,
+              "defaultValue": 50,
+              "modelName": "altura"
+            },
+            {
+              "name": "diametro",
+              "type": "esriFieldTypeDouble",
+              "alias": "Diámetro",
+              "domain": {
+                "type": "range",
+                "name": "DIAMETRO_AEROS",
+                "description": "Diámetro de los aeroxeneradores",
+                "range": [
+                  15,
+                  200
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": false,
+              "defaultValue": 30,
+              "modelName": "diametro"
+            },
+            {
+              "name": "p_nominal",
+              "type": "esriFieldTypeInteger",
+              "alias": "Potencia nominal",
+              "domain": {
+                "type": "range",
+                "name": "P_NOMINAL_AEROS",
+                "description": "Potencia nominal de los aeroxeneradores",
+                "range": [
+                  100,
+                  6500
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": false,
+              "defaultValue": 3000,
+              "modelName": "p_nominal"
+            },
+            {
+              "name": "situacion",
+              "type": "esriFieldTypeString",
+              "alias": "Situación",
+              "domain": {
+                "type": "codedValue",
+                "name": "SITUACION",
+                "description": "Situación de la infraestructura",
+                "codedValues": [
+                  {
+                    "name": "DESCARTADO",
+                    "code": "DESCARTADO"
+                  },
+                  {
+                    "name": "DESMANTELADO",
+                    "code": "DESMANTELADO"
+                  },
+                  {
+                    "name": "EXPLOTACIÓN",
+                    "code": "EXPLOTACIÓN"
+                  },
+                  {
+                    "name": "OBRA",
+                    "code": "OBRA"
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": false,
+              "length": 254,
+              "defaultValue": "EXPLOTACIÓN",
+              "modelName": "situacion"
+            },
+            {
+              "name": "etiq_xunta",
+              "type": "esriFieldTypeString",
+              "alias": "Etiqueta Xunta",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "length": 50,
+              "defaultValue": "-1",
+              "modelName": "etiq_xunta"
+            },
+            {
+              "name": "num_exped",
+              "type": "esriFieldTypeString",
+              "alias": "Número Expediente",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "length": 20,
+              "defaultValue": null,
+              "modelName": "num_exped"
+            },
+            {
+              "name": "concello",
+              "type": "esriFieldTypeString",
+              "alias": "Concello",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "concello"
+            },
+            {
+              "name": "globalid",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "globalid",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "length": 38,
+              "defaultValue": null,
+              "modelName": "globalid"
+            }
+          ],
+          "displayField": "coord_x",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "objectid",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": "situacion"
+        }
+      },
+      "widget~widgets_Query_Widget_39~5": {
+        "id": "widget~widgets_Query_Widget_39~5",
+        "type": "Features",
+        "label": "Apoios",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "num_apoio",
+              "type": "esriFieldTypeString",
+              "alias": "Número apoio",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "length": 50,
+              "defaultValue": null,
+              "modelName": "num_apoio"
+            },
+            {
+              "name": "coord_x",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada X",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "coord_x"
+            },
+            {
+              "name": "coord_y",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada Y",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "coord_y"
+            },
+            {
+              "name": "observacio",
+              "type": "esriFieldTypeString",
+              "alias": "Observaciones",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 100,
+              "defaultValue": null,
+              "modelName": "observacio"
+            },
+            {
+              "name": "num_exped",
+              "type": "esriFieldTypeString",
+              "alias": "Número expediente",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "length": 20,
+              "defaultValue": null,
+              "modelName": "num_exped"
+            },
+            {
+              "name": "concello",
+              "type": "esriFieldTypeString",
+              "alias": "Concello",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "concello"
+            },
+            {
+              "name": "globalid",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "globalid",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "length": 38,
+              "defaultValue": null,
+              "modelName": "globalid"
+            }
+          ],
+          "displayField": "num_apoio",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": ""
+        }
+      },
+      "widget~widgets_Query_Widget_39~6": {
+        "id": "widget~widgets_Query_Widget_39~6",
+        "type": "Features",
+        "label": "Infraestructuras parques",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "objectid",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "coord_x",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada X",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "coord_x"
+            },
+            {
+              "name": "coord_y",
+              "type": "esriFieldTypeDouble",
+              "alias": "Coordenada Y",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "coord_y"
+            },
+            {
+              "name": "tipo_infraest",
+              "type": "esriFieldTypeString",
+              "alias": "Tipo infraestructura",
+              "domain": {
+                "type": "codedValue",
+                "name": "INFRAESTRUCTURA",
+                "description": "Tipo de infraestructura",
+                "codedValues": [
+                  {
+                    "name": "CT/SUB",
+                    "code": "CT/SUB"
+                  },
+                  {
+                    "name": "TORRES METEOROLÓXICAS",
+                    "code": "TORRES METEOROLÓXICAS"
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": false,
+              "length": 254,
+              "defaultValue": "CT/SUB",
+              "modelName": "tipo_infraest"
+            },
+            {
+              "name": "situacion",
+              "type": "esriFieldTypeString",
+              "alias": "Situación",
+              "domain": {
+                "type": "codedValue",
+                "name": "SITUACION",
+                "description": "Situación de la infraestructura",
+                "codedValues": [
+                  {
+                    "name": "DESCARTADO",
+                    "code": "DESCARTADO"
+                  },
+                  {
+                    "name": "DESMANTELADO",
+                    "code": "DESMANTELADO"
+                  },
+                  {
+                    "name": "EXPLOTACIÓN",
+                    "code": "EXPLOTACIÓN"
+                  },
+                  {
+                    "name": "OBRA",
+                    "code": "OBRA"
+                  }
+                ],
+                "mergePolicy": "esriMPTDefaultValue",
+                "splitPolicy": "esriSPTDefaultValue"
+              },
+              "editable": true,
+              "nullable": false,
+              "length": 254,
+              "defaultValue": "EXPLOTACIÓN",
+              "modelName": "situacion"
+            },
+            {
+              "name": "num_exped",
+              "type": "esriFieldTypeString",
+              "alias": "Número expediente",
+              "domain": null,
+              "editable": true,
+              "nullable": false,
+              "length": 20,
+              "defaultValue": null,
+              "modelName": "num_exped"
+            },
+            {
+              "name": "concello",
+              "type": "esriFieldTypeString",
+              "alias": "Concello",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 255,
+              "defaultValue": null,
+              "modelName": "concello"
+            },
+            {
+              "name": "globalid",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "globalid",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "length": 38,
+              "defaultValue": null,
+              "modelName": "globalid"
+            }
+          ],
+          "displayField": "coord_x",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "objectid",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": "tipo_infraest"
+        }
+      },
+      "widget~widgets_Query_Widget_39~7": {
+        "id": "widget~widgets_Query_Widget_39~7",
+        "type": "Features",
+        "label": "Concellos",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "objectid",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "objectid"
+            },
+            {
+              "name": "codconc",
+              "type": "esriFieldTypeDouble",
+              "alias": "Código",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codconc"
+            },
+            {
+              "name": "nomeconcel",
+              "type": "esriFieldTypeString",
+              "alias": "Nome",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 254,
+              "defaultValue": null,
+              "modelName": "nomeconcel"
+            },
+            {
+              "name": "nomemay",
+              "type": "esriFieldTypeString",
+              "alias": "Nome mayúsculas",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 50,
+              "defaultValue": null,
+              "modelName": "nomemay"
+            },
+            {
+              "name": "concello",
+              "type": "esriFieldTypeString",
+              "alias": "Concello",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 50,
+              "defaultValue": null,
+              "modelName": "concello"
+            },
+            {
+              "name": "nomecapita",
+              "type": "esriFieldTypeString",
+              "alias": "Nome capital",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 50,
+              "defaultValue": null,
+              "modelName": "nomecapita"
+            },
+            {
+              "name": "codcom",
+              "type": "esriFieldTypeDouble",
+              "alias": "Código comarca",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codcom"
+            },
+            {
+              "name": "comarca",
+              "type": "esriFieldTypeString",
+              "alias": "Comarca",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 50,
+              "defaultValue": null,
+              "modelName": "comarca"
+            },
+            {
+              "name": "codprov",
+              "type": "esriFieldTypeDouble",
+              "alias": "Código provincia",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "codprov"
+            },
+            {
+              "name": "provincia",
+              "type": "esriFieldTypeString",
+              "alias": "Provincia",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 50,
+              "defaultValue": null,
+              "modelName": "provincia"
+            },
+            {
+              "name": "codigoine",
+              "type": "esriFieldTypeString",
+              "alias": "Código INE",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "length": 254,
+              "defaultValue": null,
+              "modelName": "codigoine"
+            },
+            {
+              "name": "shape_leng",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Leng",
+              "domain": null,
+              "editable": true,
+              "nullable": true,
+              "defaultValue": null,
+              "modelName": "shape_leng"
+            },
+            {
+              "name": "Shape__Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "shape_Length",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "st_length(shape)"
+            },
+            {
+              "name": "Shape__Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "shape_Area",
+              "domain": null,
+              "editable": false,
+              "nullable": false,
+              "defaultValue": null,
+              "modelName": "st_area(shape)"
+            }
+          ],
+          "displayField": "NomeConcel",
+          "objectIdField": {
+            "name": "objectid",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "domain": null,
+            "editable": false,
+            "nullable": false,
+            "defaultValue": null,
+            "modelName": "objectid"
+          },
+          "typeIdField": ""
+        }
+      }
+    },
+    "settings": {}
+  },
+  "logoLink": "https://www.deputacionlugo.gal/gl",
+  "logoAlt": "Deputación de Lugo"
+}
